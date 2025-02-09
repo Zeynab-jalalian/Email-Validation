@@ -60,6 +60,7 @@ form .field .icons{
     border: 2px solid;
     border-radius: 50%;
     line-height: 25px;
+    display: none;
 }
 .icons .icon1{
     color: #e74c3c;
@@ -77,6 +78,7 @@ form .error-text{
  padding: 8px;
  border-radius: 5px;
  position: relative;
+ display: none;
 }
 .error-text::before{
     content: '';
@@ -95,10 +97,11 @@ button{
     border: none;
     outline: none;
     border-radius: 5px;    
-    background: #e74c3c;
+    background: #27ae60;
     color: #f2f2f2;
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 1px;
     cursor: pointer;
+    display: none;
 }
