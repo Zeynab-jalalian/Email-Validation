@@ -20,7 +20,7 @@ function check(){
      icon1.style.display="block";
      icon2.style.display="none";
     }
-    if(email.value==""){
+    if(email.value.trim()==""){
         email.style.borderColor="lightgrey";
         error.style.display="none";
         btn.style.display="none";
