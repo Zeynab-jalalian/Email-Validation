@@ -31,7 +31,7 @@ html,body{
     border-radius: 5px;
     margin-bottom: 10px;
     outline: none;
-    border: 1px solid lightgray;
+    border: none;
     position: relative;
 }
 .field input{
@@ -41,7 +41,7 @@ html,body{
     font-size: 18px;
     border-radius: 5px;
     outline: none;
-    border: none;
+    border: 1px solid lightgray;
 }
 .content form .field .icons{
     position: absolute;
@@ -55,6 +55,7 @@ html,body{
     border-radius: 50%;
     border: 2px solid;
     line-height: 25px;
+    display: none;
 }
 .icons .icon1{
     color: red;
@@ -75,6 +76,7 @@ button{
     outline: none;
     border: none;
     margin-top: 10px;
+    display: none;
 }
 .error{
     background: red;
@@ -85,6 +87,7 @@ button{
     position: relative;
     margin-top: 20px;
     font-size: 18px;
+    display: none;
 }
 .error::before{
     content: '';
