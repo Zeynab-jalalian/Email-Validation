@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #f2f2f2;
+}
+.content{
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.content header{
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 33px;
+    padding-top: 10px;
+}
+.content form{
+    margin: 20px 27px;
+}
+.content .field{
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid lightgray;
+    position: relative;
+}
+.field input{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.content form .field .icons{
+    position: absolute;
+     right: 10px;
+     top: 50%;
+     transform: translateY(-50%);
+}
+.icons span{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid;
+    line-height: 25px;
+}
+.icons .icon1{
+    color: red;
+    border-color: red;
+}
+.icons .icon2{
+    color: #005319;
+    border-color: #005319;
+}
+button{
+    width: 100%;
+    height: 45px;
+    background: #005319;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+}
+.error{
+    background: red;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.error::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: red;
+    transform: rotate(45deg);
+    top: -7px;
+    right: 15px;
+}
